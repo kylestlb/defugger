@@ -56,5 +56,5 @@ var defugger = (function () {
         'background-color': 'rgb(0,0,0)'
     };
     return defugger;
-}());
+})();
 module.exports = defugger;

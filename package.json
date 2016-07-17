@@ -6,7 +6,7 @@
   "scripts": {
     "commonjs": "tsc && cp dist/defugger.js dist/defugger.common.js && echo 'module.exports = defugger;' >> dist/defugger.common.js",
     "min": "uglifyjs dist/defugger.js -c 'conditionals=true,dead_code=true,comparisons=true,evaluate=true,booleans=true,loops=true,unused=true,cascade=true' -m 'toplevel=true' -v -r 'module,exports,defugger' -o dist/defugger.min.js",
-    "build": "npm run commonjs && npm run min"
+    "build": "npm run commonjs"
   },
   "repository": {
     "type": "git",
