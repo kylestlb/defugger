@@ -1,5 +1,5 @@
 {
-  "name": "defugger",
+  "name": "@kylestlb/defugger",
   "version": "0.0.1",
   "description": "Easy to use plugin for debugging without using browser tools.",
   "main": "defugger.common.js",
