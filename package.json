@@ -2,7 +2,7 @@
   "name": "@kylestlb/defugger",
   "version": "0.0.1",
   "description": "Easy to use plugin for debugging without using browser tools.",
-  "main": "defugger.common.js",
+  "main": "dist/defugger.common.js",
   "scripts": {
     "commonjs": "tsc && cp dist/defugger.js dist/defugger.common.js && echo 'module.exports = defugger;' >> dist/defugger.common.js",
     "min": "uglifyjs dist/defugger.js -c 'conditionals=true,dead_code=true,comparisons=true,evaluate=true,booleans=true,loops=true,unused=true,cascade=true' -m 'toplevel=true' -v -r 'module,exports,defugger' -o dist/defugger.min.js",
