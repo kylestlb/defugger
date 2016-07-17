@@ -1,0 +1,9 @@
+{
+    "compilerOptions":
+    {
+        "removeComments": true,
+        "target": "ES5",
+        "listFiles": true,
+        "outDir": "dist"
+    }
+}
