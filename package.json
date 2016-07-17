@@ -1,6 +1,6 @@
 {
   "name": "@kylestlb/defugger",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Easy to use plugin for debugging without using browser tools.",
   "main": "dist/defugger.common.js",
   "scripts": {
