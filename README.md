@@ -1,5 +1,7 @@
 # defugger
 
+![demo image](https://ipfs.pics/ipfs/QmeJyU3Z4Y3nB1kuAeV6LW2NtmxMmjWSv3ASSneQASBs3v)
+
 when my code is super fugged and i am spitting out `console.log('code breaks here')` like my life depends on it, the console log in chromedevtools (or another browser's equivalent) is sometimes hard to reach.
 
 so, i wanted to make an incredibly lightweight and simple debugging console that sits above my app in the browser window.  no css, just one js file to tag (or commonjs module to require).
