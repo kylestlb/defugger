@@ -21,7 +21,9 @@ defugger inserts itself as the first child of the `<body>` tag in the window.
 npm: 
 
 `var defugger = require('@kylestlb/defugger');`
+
 `var d = new defugger();`
+
 `d.log('please print this line', defugger.level.INFO);`
 
 plain ol' javascript is the same but without the require statement.
